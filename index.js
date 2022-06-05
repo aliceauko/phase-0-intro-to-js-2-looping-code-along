@@ -11,7 +11,7 @@ function writeCards(names, event) {
 
 
 
-countDown(10);
+
 
 function countDown() {
   let countdown = 10;
