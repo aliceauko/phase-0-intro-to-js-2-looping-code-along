@@ -10,14 +10,12 @@ function writeCards(names, event) {
 
 
 
-function countDown(currentNumber) {
-  console.log(currentNumber);
 
-  let toNumber = currentNumber - 1;
-
-  if (toNumber >=0) {
-      countDown(toNumber);
-  }
-}
 countDown(10);
 
+function countDown() {
+  let countdown = 10;
+  while (countdown >= 0) {
+    console.log(countdown--);
+  }
+}
